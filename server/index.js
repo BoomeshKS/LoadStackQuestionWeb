@@ -99,8 +99,8 @@ app.post('/verify-otp', (req, res) => {
 
 
 const nexmo = new Nexmo({
-  apiKey: process.env.NEXMO_API_KEY,
-  apiSecret: process.env.NEXMO_API_SECRET
+  apiKey: "b3ec7bb1",
+  apiSecret: "ItCQ9YuuYp4KJTZb"
 });
 
 let Store1 = {}; 
